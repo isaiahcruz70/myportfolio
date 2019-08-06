@@ -43,18 +43,146 @@
     height: 100px;
 } */
 /*  */
+
+.mainlogo {
+    height: 77px;
+    width: 86px;
+}
+
 .main_img1 {
     background-image: url('../img/class2.jpg');
 }
 
-.main_img2 {
+.main_img2, .main_img3 {
     background-color: black;
 }
 
 .main_img3 {
-    background-image: url('../img/farm-2.jpg');
+   
 }
 
 .main_logo {
     max-height: 300px;
+}
+/* testomoy */
+
+#testimonials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #934A5F;
+}
+
+
+.section_height {
+    min-height: 100vh;
+}
+
+#testimonials h1 {
+    font-family: 'Lobster' , cursive;
+    color: #2ff8ee;
+    font-size: 6em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#testimonials  h3 {
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#testimonials p {
+    font-family: 'Raleway' ,sans-serif;
+    font-weight: 300;
+}
+
+#testimonials_year {
+    font-family: 'Playfair Display' , serif;
+    font-size: 200px;
+    font-weight: 700;
+    z-index: 5;
+    position: absolute;
+    color: rgba(149, 147, 147, 0.2);
+    justify-content: center;
+}
+/* start of about section */
+
+#about {
+    background-image: url('../img/helpclass.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#about .center {
+    margin: 0 auto;
+    float: none;
+    background-color: rgba(20,20,20,.6);
+    padding: 10px;
+    margin-top: 145px;
+    border-radius: 5px;
+}
+
+#about h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+    color: #2ff8f8;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#about p {
+    color: rgb(42, 252, 234);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.projects {
+    position: relative;
+    text-align: center;
+    font-family: 'Lobster' , cursive;
+    color: #2ff8ee;
+    font-size: 4em;
+    text-shadow: 1px 1px 5px #0a0a0a;  
+}
+/* start of contact */
+
+#contact {
+    background-color: #934A5F;
+}
+
+.bold {
+    font-weight: 200;
+    color: rgb(42, 252, 234);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.hi {
+    font-family: 'Lobster' , cursive;
+    color: #2ff8ee;
+    font-size: 6em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+img {
+    border: 1px solid black;
+}
+/* footer */
+
+footer {
+    padding-top: 20px;
+    max-height: 100%;
+    background-color: rgb(49, 236, 221);
+}
+
+footer a {
+    color: #5c433f;
+}
+
+footer img {
+    height: 90px;
 }
