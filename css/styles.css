@@ -144,7 +144,8 @@
     font-family: 'Lobster' , cursive;
     color: #2ff8ee;
     font-size: 4em;
-    text-shadow: 1px 1px 5px #0a0a0a;  
+    text-shadow: 1px 1px 5px #0a0a0a;
+    z-index: 100;  
 }
 /* start of contact */
 
@@ -161,11 +162,24 @@
     text-shadow: 1px 1px 5px #0a0a0a;
 }
 
-.hi {
+.hi, .isaiah {
     font-family: 'Lobster' , cursive;
     color: #2ff8ee;
     font-size: 6em;
     text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.isaiah {
+    text-align: center;
+}
+
+.color {
+    background-color: #934A5F;
+}
+
+#me {
+    height: 330px;
+    width: 400px;
 }
 
 img {
@@ -196,3 +210,36 @@ footer img {
         height: 203px;
         width: 199px;
 }
+
+form span::after {
+    content: '*';
+}
+
+.contact_form span {
+    color: #ff0d06;
+}
+
+#honor {
+    padding-right: 20px;
+}
+
+.best {
+    font-style: bold;
+    font-family: 'Lobster' , cursive;
+    color: #000;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.student {
+    font-style: bold;
+    font-family: 'Lobster' , cursive;
+    color: #000;
+    text-shadow: 1px 1px 5px #0a0a0a;
+    font-size: 33px;
+    text-align: center;
+}
+
+/* .video {
+    height: 250px;
+    width: 525px;
+} */
